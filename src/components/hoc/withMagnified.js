@@ -22,7 +22,6 @@ export const withMagnified = (WrappedComponent) =>{
 
     onMouseMove(e) {
       if (this.dragStarted) {
-        console.log('move');
         this.isDragging = true;
         const { clientX, clientY } = e;
         const { magnifyLevel, style } = this.props;
