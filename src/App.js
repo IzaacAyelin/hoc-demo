@@ -11,7 +11,7 @@ function App() {
   const ImageWithMagnified = withMagnified(Image)
   const ImageWithPopoverWithMagnified = withPopover(withMagnified(Image))
   const ImageWithHoverWithPopover = withPopover(withHover(Image));
-  const ImageWithHoverWithPopoverWithMagnified = withPopover(withHover(withMagnified(Image)));
+  // const ImageWithHoverWithPopoverWithMagnified = withPopover(withHover(withMagnified(Image)));
   const baseProps = {
     src: src,
     style: {
