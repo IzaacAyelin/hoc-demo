@@ -22,4 +22,4 @@ jobs:
     - run: npm install
     - run: npm run test
     - run: npm run build
-    - run: npx surge ./ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+    - run: npx surge ./build/ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
