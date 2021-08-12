@@ -23,7 +23,6 @@ export const withPopover = (WrappedComponent) =>{
       })
     }
     render() {
-      console.log(this.state);
       const { x, y } = this.state;
       return (
         <div

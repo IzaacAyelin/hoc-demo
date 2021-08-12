@@ -1,3 +1,18 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(2, 400px); 
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px 0px; 
+  justify-content: center;
+}
+.item {
+  display: flex;
+  margin : 10px;
+  width: 400px;
+}
+.item h4 {
+  margin-left: 10px;
+}
 .popover{
   position: absolute;
   background-color: red;
