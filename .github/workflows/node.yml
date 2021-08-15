@@ -23,3 +23,6 @@ jobs:
     - run: npm run test
     - run: npm run build
     - run: npx surge ./build/ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+      env:
+        SURGE_DOMAIN: ${{ secrets.SURGE_DOMAIN }}
+        SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
