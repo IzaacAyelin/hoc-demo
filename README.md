@@ -1,3 +1,3 @@
 # HOC Exercise
 
-Demo - [Create React App](https://hoc-demo.surge.sh/).
+Demo - [https://hoc-demo.surge.sh/](https://hoc-demo.surge.sh/).
