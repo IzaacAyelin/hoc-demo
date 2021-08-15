@@ -26,7 +26,7 @@ function App() {
         <ImageWithHover
           {...baseProps}
         />
-        <h4>Image with hover</h4>
+        <h4>Image with popover</h4>
       </div>
       <div className="item">
         <ImageWithPopover
